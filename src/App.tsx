@@ -1,18 +1,8 @@
 import React from 'react';
 import './App.css'; 
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-
-function Home() {
-  return (
-    <h2>Welcome to the Hackathon!</h2>
-  );
-}
-
-function About() {
-  return (
-    <h2>About Page</h2>
-  );
-}
+import About from './pages/About/About';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
